@@ -130,7 +130,8 @@
   /* SUPPLIER BLOCKS */
   .supplier-block {
     background: var(--surface); border: 1px solid var(--border);
-    border-radius: 10px; overflow: hidden;
+    border-radius: 10px; overflow: visible;
+    flex-shrink: 0;
   }
 
   .supplier-header {
@@ -160,16 +161,17 @@
   .supplier-block.open .chevron { transform: rotate(180deg); }
 
   /* MOBILE CARDS — always used on mobile */
-  .parts-cards { display: none; }
+  .parts-cards { display: none; border-top: 1px solid var(--border); }
   .supplier-block.open .parts-cards { display: block; }
 
   .part-card {
-    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
     padding: 11px 14px;
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 2px 12px;
   }
+  .part-card:last-child { border-bottom: none; }
   .part-card:active { background: var(--surface2); }
 
   .part-code {

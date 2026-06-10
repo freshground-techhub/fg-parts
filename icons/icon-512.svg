@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="32" fill="#242422"/>
+  <text x="96" y="70" text-anchor="middle" font-family="serif" font-size="48" font-weight="bold" fill="#d4c5a0">FG</text>
+  <text x="96" y="120" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#5b9e9a">PARTS</text>
+  <rect x="40" y="132" width="112" height="3" rx="1.5" fill="#3d6e6b"/>
+  <text x="96" y="158" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#8a8478">REFERENCE</text>
+</svg>
